@@ -26,13 +26,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "y length",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         }
       ]
     },
@@ -48,8 +46,7 @@
         },
         {
           "name": "height",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         }
       ]
     },
@@ -61,8 +58,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "y length",
@@ -82,8 +78,7 @@
         },
         {
           "name": "height",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         }
       ]
     },
@@ -103,14 +98,83 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 45,
-          "currentEquation": "45"
+          "ioValue": 45
         },
         {
           "name": "z-axis degrees",
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6464560204953032,
+      "y": 0.7652439024390244,
+      "uniqueID": "id-2851",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 1.5
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.6567036720751495,
+      "y": 0.33231707317073167,
+      "uniqueID": "id-2857",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7873612297181896,
+      "y": 0.698170731707317,
+      "uniqueID": "id-2936",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Dowel_Holder_Jig",
+          "currentEquation": "Dowel_Holder_Jig"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Dowel_Holder_Jig"
     },
     {
       "atomType": "GitHubMolecule",
@@ -267,47 +331,6 @@
       "lastReloadedFromGithubAt": 1777394674501
     },
     {
-      "atomType": "Move",
-      "x": 0.6464560204953032,
-      "y": 0.7652439024390244,
-      "uniqueID": "id-2851",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 1.5,
-          "currentEquation": "1.5"
-        }
-      ]
-    },
-    {
-      "atomType": "Difference",
-      "x": 0.6567036720751495,
-      "y": 0.33231707317073167,
-      "uniqueID": "id-2857",
-      "ioValues": [
-        {
-          "name": "geometry1",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "geometry2",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.7788215200683176,
       "y": 0.33536585365853655,
@@ -320,8 +343,7 @@
         },
         {
           "name": "Radius",
-          "ioValue": 0.1,
-          "currentEquation": ".1"
+          "ioValue": 0.1
         }
       ],
       "topLevel": false,
@@ -395,6 +417,10 @@
             {
               "name": "radius",
               "ioValue": 0.1
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -409,10 +435,6 @@
             {
               "name": "radius",
               "ioValue": 2
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -509,36 +531,6 @@
       "unitsKey": "MM",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1777394740521
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7873612297181896,
-      "y": 0.698170731707317,
-      "uniqueID": "id-2936",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Dowel_Holder_Jig",
-          "currentEquation": "Dowel_Holder_Jig"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Dowel_Holder_Jig"
     }
   ],
   "allConnectors": [
@@ -568,11 +560,6 @@
       "ap2ID": "id-2827"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-2827",
-      "ap2ID": "id-2851"
-    },
-    {
       "ap2Name": "geometry2",
       "ap1ID": "id-2851",
       "ap2ID": "id-2857"
@@ -581,6 +568,11 @@
       "ap2Name": "Shape",
       "ap1ID": "id-2857",
       "ap2ID": "id-2909"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2827",
+      "ap2ID": "id-2851"
     },
     {
       "ap2Name": "geometry",
