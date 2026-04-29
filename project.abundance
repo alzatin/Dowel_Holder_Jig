@@ -417,6 +417,10 @@
             {
               "name": "radius",
               "ioValue": 0.1
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -431,10 +435,6 @@
             {
               "name": "radius",
               "ioValue": 2
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
