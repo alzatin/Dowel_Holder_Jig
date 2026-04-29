@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.18018787361229718,
-      "y": 0.4969512195121951,
+      "x": 0.06427604871447903,
+      "y": 0.3384146341463415,
       "uniqueID": "id-2798",
       "ioValues": [
         {
@@ -108,8 +108,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6464560204953032,
-      "y": 0.7652439024390244,
+      "x": 0.6014884979702301,
+      "y": 0.7439024390243902,
       "uniqueID": "id-2851",
       "ioValues": [
         {
@@ -132,16 +132,16 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6567036720751495,
-      "y": 0.33231707317073167,
+      "x": 0.6772665764546685,
+      "y": 0.3597560975609756,
       "uniqueID": "id-2857",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -178,8 +178,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.5798462852263023,
-      "y": 0.6341463414634146,
+      "x": 0.516914749661705,
+      "y": 0.5304878048780488,
       "uniqueID": "id-2827",
       "name": "Center_XY",
       "ioValues": [
@@ -327,8 +327,7 @@
         "isLocal": false
       },
       "unitsKey": "MM",
-      "fileTypeVersion": 1,
-      "lastReloadedFromGithubAt": 1777394674501
+      "fileTypeVersion": 1
     },
     {
       "atomType": "GitHubMolecule",
@@ -417,6 +416,10 @@
             {
               "name": "radius",
               "ioValue": 0.1
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -431,10 +434,6 @@
             {
               "name": "radius",
               "ioValue": 2
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -529,8 +528,47 @@
         "isLocal": false
       },
       "unitsKey": "MM",
-      "fileTypeVersion": 1,
-      "lastReloadedFromGithubAt": 1777394740521
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7083897158322058,
+      "y": 0.5823170731707317,
+      "uniqueID": "id-3014",
+      "ioValues": []
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.6948579161028416,
+      "y": 0.798780487804878,
+      "uniqueID": "id-3017",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Loft",
+      "x": 0.6035182679296346,
+      "y": 0.5335365853658537,
+      "uniqueID": "id-3021",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ],
+      "closedSelection": 0
     }
   ],
   "allConnectors": [
@@ -540,7 +578,7 @@
       "ap2ID": "id-2802"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-2802",
       "ap2ID": "id-2857"
     },
@@ -560,7 +598,7 @@
       "ap2ID": "id-2827"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-2851",
       "ap2ID": "id-2857"
     },
