@@ -36,8 +36,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4005123825789923,
-      "y": 0.4573170731707317,
+      "x": 0.36738836265223274,
+      "y": 0.3201219512195122,
       "uniqueID": "id-2802",
       "ioValues": [
         {
@@ -417,10 +417,6 @@
             {
               "name": "radius",
               "ioValue": 0.1
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -435,6 +431,10 @@
             {
               "name": "radius",
               "ioValue": 2
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
