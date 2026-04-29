@@ -529,46 +529,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.7083897158322058,
-      "y": 0.5823170731707317,
-      "uniqueID": "id-3014",
-      "ioValues": []
-    },
-    {
-      "atomType": "Difference",
-      "x": 0.6948579161028416,
-      "y": 0.798780487804878,
-      "uniqueID": "id-3017",
-      "ioValues": [
-        {
-          "name": "retain",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "remove",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
-      "atomType": "Loft",
-      "x": 0.6035182679296346,
-      "y": 0.5335365853658537,
-      "uniqueID": "id-3021",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        }
-      ],
-      "closedSelection": 0
     }
   ],
   "allConnectors": [
